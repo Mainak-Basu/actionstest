@@ -13,8 +13,8 @@ public class Sample1 {
     @BeforeMethod
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        options.addArguments("--disable-gpu"); // applicable to Windows OS
+       // options.addArguments("--headless");
+       // options.addArguments("--disable-gpu"); // applicable to Windows OS
         options.addArguments("--window-size=1920,1080");
 
         driver = new ChromeDriver(options);
